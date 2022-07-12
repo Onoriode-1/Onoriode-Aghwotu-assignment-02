@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "src/assignment.js": [
+      {
+        "id": "bd04b4ce-f2cd-4cbc-bf95-0222474ceacc",
+        "line": 9,
+        "version": 797,
+        "index": 190
+      }
+    ]
+  }
 }
