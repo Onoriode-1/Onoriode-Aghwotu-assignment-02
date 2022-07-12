@@ -40,6 +40,7 @@ function countEvenNumbers(arrayOfNumbers) {
       totalCount += 1;
     }
   }
+  return totalCount;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
@@ -61,8 +62,6 @@ function celsiusToFahrenheit(arrayOfNumbers) {
  // return arrayOfNumbers;
 }
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
-sumOfNumbers(arrayOfNumbers);
-countEvenNumbers(arrayOfNumbers);
 
 
 // ========================
