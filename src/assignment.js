@@ -2,9 +2,6 @@
 // DO NOT EDIT THIS BLOCK
 const assignment = {};
 // ========================
-
-let arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
-let arraySize = arrayOfNumbers.length;
 /**
  * Challenge - 1
  * 
@@ -16,6 +13,7 @@ let arraySize = arrayOfNumbers.length;
  */
 function sumOfNumbers(arrayOfNumbers) {
   //return arrayOfNumbers.length;
+  let arraySize = arrayOfNumbers.length;
   let totalSum = 0;
   for (let index = 0; index < arraySize; index++) {
     totalSum += arrayOfNumbers[index];
@@ -35,6 +33,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  */
 function countEvenNumbers(arrayOfNumbers) {
   //return arrayOfNumbers.length;
+  let arraySize = arrayOfNumbers.length;
   let totalCount = 0;
   for (let index = 0; index < arraySize; index++) {
     if ((arrayOfNumbers[index] % 2) = 0) {
