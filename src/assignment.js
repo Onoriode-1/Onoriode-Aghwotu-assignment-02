@@ -5,8 +5,6 @@ const assignment = {};
 
 let arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
 let arraySize = arrayOfNumbers.length;
-sumOfNumbers(arrayOfNumbers);
-countEvenNumbers(arrayOfNumbers);
 /**
  * Challenge - 1
  * 
@@ -64,6 +62,8 @@ function celsiusToFahrenheit(arrayOfNumbers) {
   return arrayOfNumbers;
 }
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+sumOfNumbers(arrayOfNumbers);
+countEvenNumbers(arrayOfNumbers);
 
 
 // ========================
